@@ -15,7 +15,7 @@ This repository contains organized and concise notes on JavaScript topics, rangi
 
 ## 📂 Repository Structure  
 
-```plaintext
+
 JavaScript-Notes/
 ├── Basics/
 │   ├── variables.md
