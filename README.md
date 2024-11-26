@@ -15,28 +15,6 @@ This repository contains organized and concise notes on JavaScript topics, rangi
 
 ## 📂 Repository Structure  
 
-
-JavaScript-Notes/
-├── Basics/
-│   ├── variables.md
-│   ├── data-types.md
-│   ├── operators.md
-├── Functions/
-│   ├── function-basics.md
-│   ├── arrow-functions.md
-│   ├── callbacks.md
-├── Advanced/
-│   ├── async-await.md
-│   ├── closures.md
-│   ├── promises.md
-├── Projects/
-│   ├── mini-project1.md
-│   ├── mini-project2.md
-└── Resources/
-    ├── cheatsheet.md
-    ├── links.md
-
-
 - **Basics**: Core JavaScript concepts like variables, data types, and operators.  
 - **Functions**: Everything about JavaScript functions, including advanced techniques like closures.  
 - **Advanced**: Dive into asynchronous JavaScript and other in-depth topics.  
@@ -49,4 +27,4 @@ JavaScript-Notes/
 
 1. **Clone this repository**:  
    ```bash  
-   git clone https://github.com/yourusername/javascript-notes.git  
+   git clone https://github.com/vahid-patel/JavaScript-Notes.git
