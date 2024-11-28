@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <style>
+      body {
+        margin: 0;
+        line-height: normal;
+      }
+
+      .header-background {
+        position: absolute;
+        height: 79.02%;
+        width: 100%;
+        top: 20.98%;
+        right: 0%;
+        bottom: 0%;
+        left: 0%;
+        background-color: #fff;
+      }
+      .delcias-mesa {
+        position: absolute;
+        top: 0px;
+        left: 41px;
+        font-weight: 500;
+      }
+      .ico-icon {
+        position: absolute;
+        top: 2px;
+        left: 0px;
+        width: 28px;
+        height: 26px;
+      }
+      .logo {
+        width: 234px;
+        position: relative;
+        height: 31px;
+        cursor: pointer;
+      }
+      .receitas {
+        position: relative;
+        cursor: pointer;
+      }
+      .sobre-ns {
+        position: relative;
+      }
+      .menu1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 46px;
+      }
+      .background {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-radius: 22.5px;
+        background-color: #f5f2f2;
+        width: 258px;
+        height: 45px;
+      }
+      .pesquisar-receita {
+        position: absolute;
+        top: 13.05px;
+        left: 50.18px;
+        font-weight: 300;
+      }
+      .icon {
+        position: absolute;
+        height: 39.11%;
+        width: 6.82%;
+        top: 29.88%;
+        right: 84.28%;
+        bottom: 31.01%;
+        left: 8.89%;
+        max-width: 100%;
+        overflow: hidden;
+        max-height: 100%;
+      }
+      .search-bar {
+        width: 258px;
+        position: relative;
+        height: 45px;
+        font-size: 15.66px;
+        color: #858585;
+      }
+      .menu {
+        position: absolute;
+        height: 31.47%;
+        width: 89.31%;
+        top: 44.76%;
+        right: 5.35%;
+        bottom: 23.78%;
+        left: 5.35%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 194px;
+      }
+      .line {
+        position: absolute;
+        height: 20.98%;
+        width: 100%;
+        top: 0%;
+        right: 0%;
+        bottom: 79.02%;
+        left: 0%;
+        background-color: #ffdb63;
+      }
+      .header {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 1440px;
+        height: 143px;
+      }
+      .background1 {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        right: 0%;
+        bottom: 0%;
+        left: 0%;
+        background-color: #ffdb63;
+      }
+      .delcias-mesa1 {
+        position: absolute;
+        top: 0%;
+        left: 17.02%;
+        font-weight: 600;
+      }
+      .icon1 {
+        position: absolute;
+        height: 82.32%;
+        width: 11.92%;
+        top: 6.34%;
+        right: 88.08%;
+        bottom: 11.34%;
+        left: 0%;
+        max-width: 100%;
+        overflow: hidden;
+        max-height: 100%;
+      }
+      .logo1 {
+        position: absolute;
+        height: 20.51%;
+        width: 28.96%;
+        top: 39.93%;
+        right: 63.13%;
+        bottom: 39.56%;
+        left: 7.92%;
+        cursor: pointer;
+      }
+      .youtube-icon1 {
+        width: 32px;
+        position: relative;
+        height: 32px;
+        overflow: hidden;
+        flex-shrink: 0;
+      }
+      .youtube-icon {
+        border-radius: 7px;
+        background-color: #ffe9a1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 6px;
+      }
+      .icons {
+        position: absolute;
+        top: 58px;
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 8px;
+      }
+      .redes-sociais {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        font-weight: 600;
+      }
+      .footer-info {
+        position: absolute;
+        top: 85px;
+        left: 801px;
+        width: 200px;
+        height: 102px;
+        text-align: left;
+        font-size: 26px;
+        color: #000;
+      }
+      .footer {
+        position: absolute;
+        top: 1261px;
+        left: 0px;
+        width: 1440px;
+        height: 273px;
+        font-size: 46.13px;
+      }
+      .hero-image-icon {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        right: 0%;
+        bottom: 0%;
+        left: 0%;
+        max-width: 100%;
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: cover;
+      }
+      .black-background {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        right: 0%;
+        bottom: 0%;
+        left: 0%;
+        background-color: #000;
+        opacity: 0.5;
+      }
+      .inspire-se-cozinhe-com {
+        position: absolute;
+        top: calc(50% - 48px);
+        left: calc(50% - 449px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 898px;
+      }
+      .banner {
+        position: absolute;
+        top: 143px;
+        left: 0px;
+        width: 1440px;
+        height: 362px;
+        font-size: 40px;
+        color: #fff;
+      }
+      .background2 {
+        position: absolute;
+        height: 55.22%;
+        width: 100%;
+        top: 44.76%;
+        right: 0%;
+        bottom: 0.01%;
+        left: 0%;
+        border-radius: 0px 0px 33px 33px;
+        background-color: #f5f2f2;
+      }
+      .button {
+        position: absolute;
+        height: 9.08%;
+        width: 43.92%;
+        top: 82.33%;
+        right: 46.65%;
+        bottom: 8.59%;
+        left: 9.43%;
+        border-radius: 32px;
+        background-color: #ffdb63;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 9px 33px;
+        box-sizing: border-box;
+        cursor: pointer;
+      }
+      .description {
+        width: 327px;
+        position: relative;
+        font-size: 20.71px;
+        display: inline-block;
+        height: 51px;
+        flex-shrink: 0;
+      }
+      .text-info {
+        position: absolute;
+        height: 22.8%;
+        width: 81.14%;
+        top: 50.88%;
+        right: 9.43%;
+        bottom: 26.32%;
+        left: 9.43%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 18px;
+        font-size: 32px;
+      }
+      .featured-image-icon {
+        position: absolute;
+        height: 44.75%;
+        width: 100%;
+        top: 0%;
+        right: 0%;
+        bottom: 55.25%;
+        left: 0%;
+        border-radius: 33px 33px 0px 0px;
+        max-width: 100%;
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: cover;
+      }
+      .card {
+        width: 403px;
+        position: relative;
+        height: 473.7px;
+      }
+      .background3 {
+        position: absolute;
+        top: 212.04px;
+        left: 0px;
+        border-radius: 0px 0px 33px 33px;
+        background-color: #f5f2f2;
+        width: 403px;
+        height: 261.6px;
+      }
+      .description1 {
+        position: absolute;
+        top: 298px;
+        left: 38px;
+        display: inline-block;
+        width: 327px;
+        height: 51px;
+      }
+      .name1 {
+        position: absolute;
+        top: 241px;
+        left: 38px;
+        font-size: 32px;
+      }
+      .featured-image-icon1 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-radius: 33px 33px 0px 0px;
+        width: 403px;
+        height: 212px;
+        object-fit: cover;
+      }
+      .name2 {
+        position: absolute;
+        top: 237px;
+        left: 38px;
+        font-size: 32px;
+      }
+      .cards {
+        width: 1285px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 38px;
+        font-size: 20.71px;
+      }
+      .row-cards-section {
+        position: absolute;
+        top: 594px;
+        left: calc(50% - 643px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 58px;
+        text-align: left;
+        font-size: 38.9px;
+      }
+      .home {
+        width: 100%;
+        position: relative;
+        background-color: #fff;
+        height: 1534px;
+        overflow: hidden;
+        text-align: center;
+        font-size: 26px;
+        color: #2c2b2b;
+        font-family: Inter;
+      }
+    </style>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home">
+      <div class="header">
+        <div class="header-background"></div>
+        <div class="menu">
+          <div class="logo" id="logoContainer">
+            <div class="delcias-mesa">Delícias à Mesa</div>
+            <img class="ico-icon" alt="" src="Ico.svg" />
+          </div>
+          <div class="menu1">
+            <b class="sobre-ns">Home</b>
+            <b class="receitas" id="receitasText">Receitas</b>
+            <b class="sobre-ns">Sobre nós</b>
+          </div>
+          <div class="search-bar">
+            <div class="background"></div>
+            <div class="pesquisar-receita">Pesquisar receita</div>
+            <img class="icon" alt="" src="Icon.svg" />
+          </div>
+        </div>
+        <div class="line"></div>
+      </div>
+      <div class="footer">
+        <div class="background1"></div>
+        <div class="logo1" id="logoContainer">
+          <div class="delcias-mesa1">Delícias à Mesa</div>
+          <img class="icon1" alt="" src="Icon.svg" />
+        </div>
+        <div class="footer-info">
+          <div class="icons">
+            <div class="youtube-icon">
+              <img class="youtube-icon1" alt="" src="Youtube.svg" />
+            </div>
+            <div class="youtube-icon">
+              <img class="youtube-icon1" alt="" src="Twitter.svg" />
+            </div>
+            <div class="youtube-icon">
+              <img class="youtube-icon1" alt="" src="Browser.svg" />
+            </div>
+            <div class="youtube-icon">
+              <img class="youtube-icon1" alt="" src="Pinterest.svg" />
+            </div>
+          </div>
+          <div class="redes-sociais">Redes sociais:</div>
+        </div>
+      </div>
+      <div class="banner">
+        <img class="hero-image-icon" alt="" src="Hero image.png" />
+
+        <div class="black-background"></div>
+        <b class="inspire-se-cozinhe-com"
+          >Inspire-se, cozinhe com paixão e saboreie momentos inesquecíveis à
+          mesa.</b
+        >
+      </div>
+      <div class="row-cards-section">
+        <b class="sobre-ns">Receitas mais procuradas</b>
+        <div class="cards">
+          <div class="card">
+            <div class="background2"></div>
+            <div class="button" id="buttonContainer">
+              <b class="sobre-ns">Ver receita</b>
+            </div>
+            <div class="text-info">
+              <b class="sobre-ns">Waffles</b>
+              <div class="description">
+                Receita bacana pra comer com os amigos de manhã.
+              </div>
+            </div>
+            <img class="featured-image-icon" alt="" src="Featured image.png" />
+          </div>
+          <div class="card">
+            <div class="background3"></div>
+            <div class="button" id="buttonContainer">
+              <b class="sobre-ns">Ver receita</b>
+            </div>
+            <div class="description1">
+              Receita bacana pra comer com os amigos de manhã.
+            </div>
+            <b class="name1">Panquecas</b>
+            <img class="featured-image-icon1" alt="" src="Featured image.png" />
+          </div>
+          <div class="card">
+            <div class="background3"></div>
+            <div class="button" id="buttonContainer">
+              <b class="sobre-ns">Ver receita</b>
+            </div>
+            <div class="description1">
+              Receita bacana pra comer com os amigos de manhã.
+            </div>
+            <b class="name2">Chocolate quente</b>
+            <img class="featured-image-icon1" alt="" src="Featured image.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var logoContainer = document.getElementById("logoContainer");
+      if (logoContainer) {
+        logoContainer.addEventListener("click", function (e) {
+          window.location.href = "Home.html";
+        });
+      }
+
+      var receitasText = document.getElementById("receitasText");
+      if (receitasText) {
+        receitasText.addEventListener("click", function (e) {
+          // Add your code here
+        });
+      }
+
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          // Add your code here
+        });
+      }
+    </script>
+  </body>
+</html>

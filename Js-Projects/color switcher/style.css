@@ -1,0 +1,26 @@
+body {
+   
+    text-align: center;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.b1{
+    background-color: red;
+}
+
+.b2{
+    background-color: white;
+}
+
+.b3{
+    background-color: blue;
+}
+
+.b4{
+    background-color: yellow;
+}
