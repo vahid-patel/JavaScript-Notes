@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    background-color: white;
+    height: 80%;
+    width: 28%;
+    background-color: #292F3B;
+
+    border-radius: 20px; /* Rounded corners for the main container */
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1); /* Optional shadow for a floating effect */
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right bottom, #43134F, #9C4FAD);
+}
+
+.container {
+    background-color: #292F3B;
+    height: 70%;
+    width: 100%;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 50px; /* Rounded corners for the button container */
+    padding: 10px; /* Adds space around the buttons for cleaner look */
+}
+
+.input {
+    /* background-color: #2A2E37; */
+    background-color: #292F3B;
+
+    width: 100%;
+    height: 60%;
+    color: white;
+    font-size: 70px;
+    text-align: right;
+    border-radius: 50px; /* Rounded corners for the input box */
+    padding: 10px; /* Adds padding inside the input for spacing */
+}
+
+.top {
+    width: 100%;
+    height: 10%;
+    /* background-color: #2A2E37; */
+    background-color: #292F3B;
+    border-radius: 50px;
+
+}
+
+.midcontainer {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: end;
+    /* background-color: #2A2E37; */
+    background-color: #292F3B;
+
+}
+
+button {
+    background-color: #2F3646;
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    padding: 15px; /* Adds padding inside the buttons for better spacing */
+    transition: background-color 0.3s; /* Smooth hover transition */
+}
+
+button:hover {
+    background-color: #434B5E; /* Darken buttons on hover for a nice effect */
+}
+
+#purple {
+    color: #C45BDC;
+}
+
+#backpurple {
+    background-color: #C45BDC;
+    border-radius: 5px; /* Same rounded corners for special buttons */
+}
+
+#backpurple:hover {
+    background-color: #A535BC; /* Slightly darker purple on hover */
+}
