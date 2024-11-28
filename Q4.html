@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        /*
+Create a game where you start with any random number. Ask the user to keep guessing the number until the user enters correct value.
+*/
+
+const guessnum = 67;
+
+while (true) {
+  let number = prompt("Guess the Number : ");
+
+  if (number == guessnum) { //if we used === then it will not work bcoz === checks the datatype equality also
+    alert('You win!');
+    break;
+  }
+  else{
+    alert('Wrong!!! Try Again! ');
+  }
+}
+
+//OR
+
+const guessing=67;
+let num = prompt('Guess the number : ');
+
+while(guessing != num){
+    num = prompt('You entered wrong number Try guessing again : ');
+}
+
+alert('You win! ');
+
+    </script>
+</body>
+</html>
