@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #3E3E3E;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #FFF;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.5em;
+    padding: 10px 0;
+    border-bottom: 2px solid #8f94fb;
+}
+
+.instructions {
+    font-size: 1em;
+    margin: 15px 0;
+    color: #d0d0d0;
+}
+
+.label {
+    font-size: 1em;
+    margin-top: 20px;
+    display: block;
+    color: #fff;
+}
+
+.guesser {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #8f94fb;
+}
+
+.submit {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 1em;
+    color: #FFF;
+    background-color: #4e54c8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit:hover {
+    background-color: #8f94fb;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #FFEB3B;
+    min-height: 24px;
+}
+
+.info {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #d0d0d0;
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .title {
+        font-size: 1.3em;
+    }
+
+    .instructions, .info p {
+        font-size: 0.9em;
+    }
+}
